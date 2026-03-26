@@ -1,0 +1,430 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Orvynza · Terms of Service | Pink & Black Legal Loom</title>
+  <meta name="description" content="Orvynza Flavor Loom Terms of Service — usage guidelines, intellectual property, culinary content license, and community standards.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0a0a0a;
+      font-family: 'Segoe UI', 'Inter', system-ui, -apple-system, 'Poppins', 'Helvetica Neue', sans-serif;
+      color: #f5e6f0;
+      line-height: 1.5;
+      scroll-behavior: smooth;
+    }
+
+    :root {
+      --pink-glow: #ff3b6f;
+      --pink-soft: #ff98b9;
+      --pink-dark: #d43f6b;
+      --black-rich: #0c0b0e;
+      --black-card: #141217;
+      --border-pink: rgba(255, 59, 111, 0.35);
+      --text-light: #faeef4;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e1b22;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--pink-glow);
+      border-radius: 12px;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--pink-soft);
+      transition: 0.2s;
+    }
+    a:hover {
+      color: var(--pink-glow);
+      text-shadow: 0 0 3px #ff3b6f80;
+    }
+
+    /* header & nav (mirror main site) */
+    .site-header {
+      background: #0a080c;
+      border-bottom: 2px solid var(--pink-glow);
+      padding: 1.2rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(4px);
+      background: rgba(10, 8, 12, 0.92);
+    }
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+    }
+    .logo h1 {
+      font-size: 1.9rem;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #ff9bc0, #ff3b6f);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-weight: 700;
+    }
+    .logo p {
+      font-size: 0.8rem;
+      color: #ff98b9cc;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 0.4rem 0;
+      border-bottom: 2px solid transparent;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      border-bottom-color: var(--pink-glow);
+      color: #ffb8d0;
+    }
+
+    /* main legal container */
+    .legal-container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1.8rem;
+    }
+
+    /* hero / terms header */
+    .terms-hero {
+      background: linear-gradient(125deg, #130e17, #1f1926);
+      border-radius: 2rem;
+      padding: 2rem 2rem;
+      margin-bottom: 2.5rem;
+      border: 1px solid var(--border-pink);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    .terms-hero h1 {
+      font-size: 2.8rem;
+      color: #ffb8d0;
+      margin-bottom: 1rem;
+      letter-spacing: -0.3px;
+    }
+    .terms-hero p {
+      font-size: 1.1rem;
+      color: #e2cfdb;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .effective-badge {
+      background: #ff3b6f20;
+      display: inline-block;
+      border-radius: 60px;
+      padding: 0.3rem 1.2rem;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      backdrop-filter: blur(2px);
+      font-weight: 500;
+    }
+
+    /* card style for sections */
+    .terms-card {
+      background: var(--black-card);
+      border-radius: 1.8rem;
+      border: 1px solid #2a2433;
+      padding: 2rem 2rem;
+      margin-bottom: 2rem;
+      transition: all 0.2s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .terms-card:hover {
+      border-color: var(--pink-glow);
+      box-shadow: 0 8px 22px rgba(255, 59, 111, 0.1);
+    }
+    .terms-card h2 {
+      font-size: 1.9rem;
+      margin-bottom: 1.2rem;
+      color: var(--pink-soft);
+      border-left: 5px solid var(--pink-glow);
+      padding-left: 1rem;
+    }
+    .terms-card h3 {
+      font-size: 1.4rem;
+      margin: 1.2rem 0 0.8rem 0;
+      color: #ffc0d6;
+    }
+    .terms-card p {
+      margin-bottom: 1rem;
+      color: #e2d4de;
+    }
+    .terms-card ul, .terms-card ol {
+      margin: 1rem 0 1rem 2rem;
+      color: #e2d4de;
+    }
+    .terms-card li {
+      margin-bottom: 0.5rem;
+    }
+    .highlight-pink {
+      color: var(--pink-glow);
+      font-weight: 500;
+    }
+    hr.divider-pink {
+      margin: 1rem 0;
+      border: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--pink-glow), transparent);
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #1f1926;
+      padding: 0.6rem 1.3rem;
+      border-radius: 40px;
+      font-weight: 600;
+      margin-top: 1rem;
+      border: 1px solid var(--border-pink);
+      transition: 0.2s;
+    }
+    .back-link:hover {
+      background: #ff3b6f20;
+      border-color: var(--pink-glow);
+      transform: translateX(-3px);
+    }
+    footer {
+      background: #050305;
+      border-top: 2px solid var(--pink-glow);
+      padding: 2rem 2rem 1.5rem;
+      margin-top: 3rem;
+    }
+    .footer-inner {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .contact-info {
+      font-size: 1rem;
+    }
+    .contact-info i {
+      font-style: normal;
+      font-weight: 500;
+      display: block;
+      margin: 0.4rem 0;
+    }
+    .copyright {
+      text-align: center;
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-top: 1.5rem;
+    }
+    @media (max-width: 700px) {
+      .header-container { flex-direction: column; align-items: center; text-align: center; }
+      .terms-hero h1 { font-size: 2rem; }
+      .legal-container { padding: 0 1.2rem; }
+      .terms-card { padding: 1.5rem; }
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-container">
+    <div class="logo">
+      <h1>🍽️ Orvynza Flavor Loom</h1>
+      <p>weaving taste, text & texture — pink & black recipe sanctuary</p>
+    </div>
+    <div class="nav-links">
+      <a href="#" class="active" id="navTermsBtn">📜 Terms of Service</a>
+      <a href="#" id="navPrivacyMock">🔒 Privacy Overview</a>
+      <a href="#" id="navHomeMock">🏠 Return to Loom</a>
+    </div>
+  </div>
+</header>
+
+<main class="legal-container">
+  <div class="terms-hero">
+    <h1>✦ Terms of Service ✦</h1>
+    <p>The Flavor Loom Agreement — rights, responsibilities & the art of culinary storytelling</p>
+    <div class="effective-badge">📅 Effective: March 24, 2026 | Version 2.0 (Pink & Black Edition)</div>
+  </div>
+
+  <div class="terms-card">
+    <h2>1. Acceptance of Terms</h2>
+    <p>Welcome to Orvynza Flavor Loom ("we," "us," or "the Platform"). By accessing or using the website <span class="highlight-pink">www.orvynzaflavorloom.com</span>, any subdomains, or related services, you agree to comply with and be bound by these Terms of Service ("Terms"). If you do not agree to these Terms, please refrain from using our website, recipes, or textual content. These Terms apply to all visitors, users, and anyone who interacts with our gastronomic library.</p>
+    <p>We reserve the right to update or modify these Terms at any time without prior notice. Your continued use of the Platform after any changes constitutes acceptance of the new Terms. The most current version will always be available on this page.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>2. Intellectual Property & Content Ownership</h2>
+    <h3>2.1 Original Recipes & Literary Works</h3>
+    <p>All recipe texts, culinary narratives, ingredient descriptions, metadata, photography descriptions, and the overarching "Flavor Loom" concept are original creations owned exclusively by Orvynza Flavor Loom. The collective work includes more than <span class="highlight-pink">58,000+ words</span> of unique gastronomic literature, protected under international copyright and intellectual property laws. You may not reproduce, distribute, modify, create derivative works, publicly display, or commercially exploit any portion of the content without explicit written permission.</p>
+    <h3>2.2 Limited Personal License</h3>
+    <p>We grant you a personal, non-exclusive, non-transferable license to access and view the recipes for personal, non-commercial use. You may print individual recipes for home cooking, share excerpts with proper attribution (linking back to orvynzaflavorloom.com), but you may not republish entire recipe collections, scrape the content for AI training, or resell our textual material. Any unauthorized use terminates this license immediately.</p>
+    <div class="highlight-pink" style="background: #ff3b6f10; padding: 0.8rem; border-radius: 1rem; margin-top: 0.5rem;">📌 The pink & black aesthetic, tagline "weaving taste, text & texture", and recipe taxonomy are trademarked elements of Orvynza.</div>
+  </div>
+
+  <div class="terms-card">
+    <h2>3. User Conduct & Community Guidelines</h2>
+    <p>Orvynza Flavor Loom is a sanctuary for culinary exploration. When interacting with the website (comments, contact forms, or social sharing), you agree not to:</p>
+    <ul>
+      <li>Post any harmful, offensive, or discriminatory content.</li>
+      <li>Attempt to reverse-engineer, hack, or disrupt the website’s functionality.</li>
+      <li>Use the recipes or texts for spam, unsolicited advertising, or fraudulent activities.</li>
+      <li>Impersonate Orvynza staff or misrepresent affiliation with our brand.</li>
+      <li>Upload viruses or malicious code.</li>
+    </ul>
+    <p>We reserve the right to terminate access for any user who violates these guidelines. The Flavor Loom thrives on respect, inclusivity, and a shared love for gastronomic art.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>4. Disclaimer of Warranties</h2>
+    <p>All content, recipes, and culinary advice provided on Orvynza Flavor Loom are for informational and entertainment purposes only. While we strive for accuracy, we do not warrant that recipe results, nutritional information, or ingredient substitutions will meet your expectations. Cooking involves inherent risks (allergens, temperatures, etc.); you assume full responsibility for any outcomes. The Platform is provided on an "AS IS" and "AS AVAILABLE" basis without warranties of any kind, either express or implied.</p>
+    <p>We do not guarantee that the website will be uninterrupted, error-free, or free of viruses. Some jurisdictions do not allow the exclusion of certain warranties, so the above limitations may not fully apply to you.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>5. Limitation of Liability</h2>
+    <p>To the fullest extent permitted by law, Orvynza Flavor Loom, its owners, contributors, and affiliates shall not be liable for any indirect, incidental, special, consequential, or punitive damages, including without limitation, loss of profits, data, or goodwill, arising from your use or inability to use the website, even if we have been advised of the possibility of such damages. In no event shall our total liability exceed the amount you paid to access our services (if any). Since this site is free to browse, liability is limited to the maximum extent allowed by law.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>6. Third-Party Links & External Content</h2>
+    <p>Our recipe pages may contain links to external websites, ingredient suppliers, or culinary references for your convenience. We do not endorse, control, or assume responsibility for the content, privacy policies, or practices of any third-party sites. If you access third-party links, you do so at your own risk. We recommend reviewing their terms and privacy policies.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>7. Privacy & Data Collection</h2>
+    <p>Your privacy is essential to us. Our <a href="#" id="privacyInlineLink">Privacy Policy</a> explains how we handle any personal data. In short, we do not use tracking cookies for advertising; we only collect minimal server logs and anonymous analytics to improve performance. Any personal information provided via contact forms is used solely to respond to inquiries. By using Orvynza, you consent to the data practices described in our Privacy Policy.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>8. Indemnification</h2>
+    <p>You agree to indemnify, defend, and hold harmless Orvynza Flavor Loom, its founders, writers, and partners from and against any claims, damages, liabilities, costs, and expenses (including reasonable legal fees) arising out of your misuse of the website, violation of these Terms, or infringement of any intellectual property or other rights.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>9. Termination</h2>
+    <p>We may suspend or terminate your access to the Platform at any time, without notice, for conduct that we believe violates these Terms or is harmful to other users or the brand. Upon termination, all provisions of these Terms that by their nature should survive shall remain in effect (including intellectual property, warranty disclaimers, and limitation of liability).</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>10. Governing Law & Dispute Resolution</h2>
+    <p>These Terms shall be governed by and construed in accordance with the laws of the State of New York, without regard to its conflict of law principles. Any dispute arising from or relating to these Terms or your use of the Platform shall be resolved exclusively in the state or federal courts located in New York County, New York. You waive any objection based on improper venue or forum non conveniens.</p>
+    <p>For minor disputes, we encourage contacting us first at <span class="highlight-pink">hello@orvynzaflavorloom.com</span> to reach an amicable resolution.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>11. Contact Information</h2>
+    <p>If you have any questions about these Terms, please reach out to our culinary legal team:</p>
+    <ul>
+      <li>📍 Orvynza Flavor Loom — 417 Black Cherry Lane, Suite 7B, Flavortown, NY 10013</li>
+      <li>📞 +1 (212) 555-ORVY (6789)  |  +44 20 7946 0138</li>
+      <li>✉️ legal@orvynzaflavorloom.com  |  hello@orvynzaflavorloom.com</li>
+    </ul>
+    <hr class="divider-pink">
+    <p style="font-style: italic;">By entering the Flavor Loom, you acknowledge that you have read, understood, and agreed to be bound by these Terms of Service. Now go forth and create something extraordinary with pink peppercorn and black garlic.</p>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin: 2rem 0 1rem;">
+    <a href="#" id="backToHomeBtn" class="back-link">⌂  Back to the Main Loom (Recipe Atlas)</a>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="contact-info">
+      <strong>📍 Orvynza Flavor Loom · Culinary Atelier</strong>
+      <i>🏠 417 Black Cherry Lane, Suite 7B, Flavortown, NY 10013</i>
+      <i>📞 +1 (212) 555-ORVY (6789)  |  +44 20 7946 0138</i>
+      <i>✉️ hello@orvynzaflavorloom.com</i>
+    </div>
+    <div class="word-stats">⚖️ Terms v2.0 | Pink & Black Legal Weave</div>
+  </div>
+  <div class="copyright">© 2026 Orvynza Flavor Loom — All original recipes, narratives & textual compositions are protected. Respect the Loom.</div>
+</footer>
+
+<script>
+  // interactive navigation (mock for standalone terms page)
+  const navTerms = document.getElementById('navTermsBtn');
+  const navPrivacy = document.getElementById('navPrivacyMock');
+  const navHome = document.getElementById('navHomeMock');
+  const backHomeBtn = document.getElementById('backToHomeBtn');
+  const privacyInlineLink = document.getElementById('privacyInlineLink');
+
+  // For this standalone terms page, we provide informative popup/alert or redirect to imaginary pages,
+  // but since the requirement was to generate a full "terms page" in pink/black theme matching Orvynza,
+  // we keep the page as standalone terms. We'll also simulate "Privacy Overview" as a scroll to privacy card
+  // and a back-to-home redirect message. For better UX, we can show a modal or scroll to the privacy section
+  // (since the privacy card exists in this doc? Actually we have a Privacy section inside Terms card #7).
+  // Let's implement smooth scroll to the privacy part (section 7) when clicking privacy links.
+  function scrollToPrivacySection() {
+    const privacyCard = document.querySelector('.terms-card:nth-child(7)'); // section 7: privacy & data collection
+    if(privacyCard) {
+      privacyCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      privacyCard.style.transition = '0.2s';
+      privacyCard.style.borderColor = '#ff3b6f';
+      setTimeout(() => { privacyCard.style.borderColor = '#2a2433'; }, 1000);
+    } else {
+      alert("🔒 Privacy Policy summary is available in Section 7 of these Terms. You can also read the full standalone policy on our main site.");
+    }
+  }
+
+  if(navPrivacy) {
+    navPrivacy.addEventListener('click', (e) => {
+      e.preventDefault();
+      scrollToPrivacySection();
+    });
+  }
+  if(privacyInlineLink) {
+    privacyInlineLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      scrollToPrivacySection();
+    });
+  }
+
+  // home / back buttons: simulate returning to main recipe atlas.
+  function redirectToRecipeAtlas() {
+    alert("🍽️ Orvynza Flavor Loom — The main recipe atlas (58k+ words) would open here. In this standalone Terms page, you can imagine the full experience with recipe cards, pink/black grid and 42 original dishes. To view the complete Flavor Loom, please navigate to the index page.");
+    // you could also replace window.location if needed, but since this is a stand-alone terms demonstration,
+    // we respect the context: the original request expects a terms page that matches the pink & black brand.
+    // For demonstration we show a friendly modal.
+  }
+
+  if(navHome) navHome.addEventListener('click', (e) => { e.preventDefault(); redirectToRecipeAtlas(); });
+  if(backHomeBtn) backHomeBtn.addEventListener('click', (e) => { e.preventDefault(); redirectToRecipeAtlas(); });
+  if(navTerms) navTerms.addEventListener('click', (e) => { e.preventDefault(); window.scrollTo({ top: 0, behavior: 'smooth' }); });
+
+  // Additional micro-interaction: highlight active link styling (simple)
+  const setActive = (activeEl) => {
+    [navTerms, navPrivacy, navHome].forEach(link => link.classList.remove('active'));
+    if(activeEl) activeEl.classList.add('active');
+  };
+  navTerms.addEventListener('click', () => setActive(navTerms));
+  navPrivacy.addEventListener('click', () => setActive(navPrivacy));
+  navHome.addEventListener('click', () => setActive(navHome));
+  // set terms active by default
+  setActive(navTerms);
+
+  // also add a little easter egg: total word count reference from original site? not needed but keeps consistency
+  console.log("Orvynza Terms of Service — Pink & Black legal framework ready.");
+</script>
+
+</body>
+</html>

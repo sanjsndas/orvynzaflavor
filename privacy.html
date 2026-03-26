@@ -1,0 +1,484 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <title>Orvynza · Privacy Policy | Pink & Black Data Sanctuary</title>
+  <meta name="description" content="Orvynza Flavor Loom Privacy Policy — how we handle your data, cookies, and respect your privacy in our culinary sanctuary.">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: #0a0a0a;
+      font-family: 'Segoe UI', 'Inter', system-ui, -apple-system, 'Poppins', 'Helvetica Neue', sans-serif;
+      color: #f5e6f0;
+      line-height: 1.5;
+      scroll-behavior: smooth;
+    }
+
+    :root {
+      --pink-glow: #ff3b6f;
+      --pink-soft: #ff98b9;
+      --pink-dark: #d43f6b;
+      --black-rich: #0c0b0e;
+      --black-card: #141217;
+      --border-pink: rgba(255, 59, 111, 0.35);
+      --text-light: #faeef4;
+    }
+
+    ::-webkit-scrollbar {
+      width: 8px;
+    }
+    ::-webkit-scrollbar-track {
+      background: #1e1b22;
+    }
+    ::-webkit-scrollbar-thumb {
+      background: var(--pink-glow);
+      border-radius: 12px;
+    }
+
+    a {
+      text-decoration: none;
+      color: var(--pink-soft);
+      transition: 0.2s;
+    }
+    a:hover {
+      color: var(--pink-glow);
+      text-shadow: 0 0 3px #ff3b6f80;
+    }
+
+    /* header & nav (mirror main site & terms) */
+    .site-header {
+      background: #0a080c;
+      border-bottom: 2px solid var(--pink-glow);
+      padding: 1.2rem 2rem;
+      position: sticky;
+      top: 0;
+      z-index: 100;
+      backdrop-filter: blur(4px);
+      background: rgba(10, 8, 12, 0.92);
+    }
+    .header-container {
+      max-width: 1400px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 1rem;
+    }
+    .logo h1 {
+      font-size: 1.9rem;
+      letter-spacing: -0.5px;
+      background: linear-gradient(135deg, #ff9bc0, #ff3b6f);
+      -webkit-background-clip: text;
+      background-clip: text;
+      color: transparent;
+      font-weight: 700;
+    }
+    .logo p {
+      font-size: 0.8rem;
+      color: #ff98b9cc;
+    }
+    .nav-links {
+      display: flex;
+      gap: 2rem;
+      flex-wrap: wrap;
+    }
+    .nav-links a {
+      font-weight: 600;
+      font-size: 1rem;
+      padding: 0.4rem 0;
+      border-bottom: 2px solid transparent;
+    }
+    .nav-links a:hover, .nav-links a.active {
+      border-bottom-color: var(--pink-glow);
+      color: #ffb8d0;
+    }
+
+    /* main legal container */
+    .legal-container {
+      max-width: 1100px;
+      margin: 2rem auto;
+      padding: 0 1.8rem;
+    }
+
+    /* hero / privacy header */
+    .privacy-hero {
+      background: linear-gradient(125deg, #130e17, #1f1926);
+      border-radius: 2rem;
+      padding: 2rem 2rem;
+      margin-bottom: 2.5rem;
+      border: 1px solid var(--border-pink);
+      box-shadow: 0 12px 28px rgba(0,0,0,0.5);
+      text-align: center;
+    }
+    .privacy-hero h1 {
+      font-size: 2.8rem;
+      color: #ffb8d0;
+      margin-bottom: 1rem;
+      letter-spacing: -0.3px;
+    }
+    .privacy-hero p {
+      font-size: 1.1rem;
+      color: #e2cfdb;
+      max-width: 700px;
+      margin: 0 auto;
+    }
+    .effective-badge {
+      background: #ff3b6f20;
+      display: inline-block;
+      border-radius: 60px;
+      padding: 0.3rem 1.2rem;
+      font-size: 0.8rem;
+      margin-top: 1rem;
+      backdrop-filter: blur(2px);
+      font-weight: 500;
+    }
+
+    /* card style for sections */
+    .terms-card {
+      background: var(--black-card);
+      border-radius: 1.8rem;
+      border: 1px solid #2a2433;
+      padding: 2rem 2rem;
+      margin-bottom: 2rem;
+      transition: all 0.2s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    }
+    .terms-card:hover {
+      border-color: var(--pink-glow);
+      box-shadow: 0 8px 22px rgba(255, 59, 111, 0.1);
+    }
+    .terms-card h2 {
+      font-size: 1.9rem;
+      margin-bottom: 1.2rem;
+      color: var(--pink-soft);
+      border-left: 5px solid var(--pink-glow);
+      padding-left: 1rem;
+    }
+    .terms-card h3 {
+      font-size: 1.4rem;
+      margin: 1.2rem 0 0.8rem 0;
+      color: #ffc0d6;
+    }
+    .terms-card p {
+      margin-bottom: 1rem;
+      color: #e2d4de;
+    }
+    .terms-card ul, .terms-card ol {
+      margin: 1rem 0 1rem 2rem;
+      color: #e2d4de;
+    }
+    .terms-card li {
+      margin-bottom: 0.5rem;
+    }
+    .highlight-pink {
+      color: var(--pink-glow);
+      font-weight: 500;
+    }
+    hr.divider-pink {
+      margin: 1rem 0;
+      border: 0;
+      height: 1px;
+      background: linear-gradient(90deg, transparent, var(--pink-glow), transparent);
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 0.5rem;
+      background: #1f1926;
+      padding: 0.6rem 1.3rem;
+      border-radius: 40px;
+      font-weight: 600;
+      margin-top: 1rem;
+      border: 1px solid var(--border-pink);
+      transition: 0.2s;
+    }
+    .back-link:hover {
+      background: #ff3b6f20;
+      border-color: var(--pink-glow);
+      transform: translateX(-3px);
+    }
+    footer {
+      background: #050305;
+      border-top: 2px solid var(--pink-glow);
+      padding: 2rem 2rem 1.5rem;
+      margin-top: 3rem;
+    }
+    .footer-inner {
+      max-width: 1300px;
+      margin: 0 auto;
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: space-between;
+      align-items: center;
+      gap: 1.5rem;
+    }
+    .contact-info {
+      font-size: 1rem;
+    }
+    .contact-info i {
+      font-style: normal;
+      font-weight: 500;
+      display: block;
+      margin: 0.4rem 0;
+    }
+    .copyright {
+      text-align: center;
+      font-size: 0.8rem;
+      opacity: 0.7;
+      margin-top: 1.5rem;
+    }
+    @media (max-width: 700px) {
+      .header-container { flex-direction: column; align-items: center; text-align: center; }
+      .privacy-hero h1 { font-size: 2rem; }
+      .legal-container { padding: 0 1.2rem; }
+      .terms-card { padding: 1.5rem; }
+    }
+    .cookie-consent-note {
+      background: #ff3b6f10;
+      border-left: 3px solid var(--pink-glow);
+      padding: 1rem 1.5rem;
+      border-radius: 1rem;
+      margin: 1.5rem 0;
+    }
+  </style>
+</head>
+<body>
+
+<header class="site-header">
+  <div class="header-container">
+    <div class="logo">
+      <h1>🍽️ Orvynza Flavor Loom</h1>
+      <p>weaving taste, text & texture — pink & black recipe sanctuary</p>
+    </div>
+    <div class="nav-links">
+      <a href="#" id="navTermsLink">📜 Terms of Service</a>
+      <a href="#" class="active" id="navPrivacyLink">🔒 Privacy Policy</a>
+      <a href="#" id="navHomeLink">🏠 Return to Loom</a>
+    </div>
+  </div>
+</header>
+
+<main class="legal-container">
+  <div class="privacy-hero">
+    <h1>🔒 Privacy Policy</h1>
+    <p>Your data is as sacred as a family recipe — minimal, respected, and never exploited.</p>
+    <div class="effective-badge">📅 Effective: March 24, 2026 | Last Updated: March 2026</div>
+  </div>
+
+  <div class="terms-card">
+    <h2>1. Our Commitment to Privacy</h2>
+    <p>At Orvynza Flavor Loom ("we", "us", or "the Platform"), your privacy is a cornerstone of our culinary philosophy. We believe that exploring recipes, techniques, and gastronomic stories should never come at the cost of your personal data. This Privacy Policy explains what information we collect, how we use it, and the choices you have. By using our website, you agree to the practices described herein.</p>
+    <p>We operate under a <span class="highlight-pink">minimal-data-first</span> approach — we don’t sell your data, we don’t run intrusive ad networks, and we never share personal information for profit. The Flavor Loom is a sanctuary, and we protect it accordingly.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>2. Information We Collect</h2>
+    <h3>2.1 Automatically Collected Data (Server Logs & Analytics)</h3>
+    <p>When you visit Orvynza Flavor Loom, our servers may automatically collect standard technical information such as your IP address (anonymized where possible), browser type, operating system, referring pages, date/time stamps, and general usage patterns. We use lightweight, privacy-friendly analytics (no external tracking giants) to understand which recipes resonate most and to improve site performance. This data is never sold or used for cross-site advertising.</p>
+    <h3>2.2 Information You Provide Voluntarily</h3>
+    <p>We only collect personal information when you actively choose to share it. This includes:</p>
+    <ul>
+      <li><strong>Contact Forms:</strong> If you reach out via hello@orvynzaflavorloom.com or our contact widget, we may receive your name, email address, and message content. We use this solely to respond to inquiries.</li>
+      <li><strong>Comments or feedback:</strong> If you submit a recipe review or comment (future feature), we may store your display name and comment. You are never required to provide real names.</li>
+      <li><strong>Newsletter (optional):</strong> If you opt into our mailing list (when available), we collect your email to share seasonal recipes and updates — you can unsubscribe anytime.</li>
+    </ul>
+    <div class="cookie-consent-note">
+      🍪 <strong>Cookie-Light Pledge:</strong> We do NOT use tracking cookies for advertising or retargeting. We only use essential session cookies to maintain site functionality and optional preference cookies. No third-party ad trackers, no Facebook pixels, no Google Analytics invasive scripts. Your browsing stays inside the Loom.
+    </div>
+  </div>
+
+  <div class="terms-card">
+    <h2>3. How We Use Your Information</h2>
+    <p>We use the limited data we collect exclusively for the following purposes:</p>
+    <ul>
+      <li>✓ To provide, maintain, and improve the Flavor Loom experience (e.g., fixing bugs, optimizing recipe discovery).</li>
+      <li>✓ To respond to your messages, recipe requests, or partnership inquiries.</li>
+      <li>✓ To send occasional updates if you explicitly opt in (newsletter). No spam, ever.</li>
+      <li>✓ To protect the security and integrity of our website against fraud or abuse.</li>
+    </ul>
+    <p>We do not use your data for automated decision-making, profiling, or any form of behavioral advertising. Your culinary journey remains yours.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>4. Data Sharing & Disclosure</h2>
+    <p>Orvynza Flavor Loom respects your privacy and does not sell, trade, or rent your personal information to third parties. Limited sharing occurs only in the following circumstances:</p>
+    <ul>
+      <li><strong>Service Providers:</strong> We may use trusted third-party services (e.g., secure email hosting, minimalist analytics) that process data on our behalf under strict confidentiality agreements. They are prohibited from using your data for any other purpose.</li>
+      <li><strong>Legal Compliance:</strong> If required by law, subpoena, or governmental request, we may disclose information to comply with legal obligations or protect the rights, property, or safety of Orvynza, our users, or others.</li>
+      <li><strong>Business Transfers:</strong> In the unlikely event of a merger, acquisition, or asset sale, your data may be transferred. We will notify you via prominent notice on the site.</li>
+    </ul>
+    <p>We never share your information with advertisers, data brokers, or marketing platforms.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>5. Cookies & Similar Technologies</h2>
+    <p>We use minimal cookies to enhance your experience. Here's the breakdown:</p>
+    <ul>
+      <li><strong>Essential Cookies:</strong> Required for site navigation, security, and basic functionality. No consent needed as they are strictly necessary.</li>
+      <li><strong>Preference Cookies:</strong> If you adjust theme settings (future pink/black mode) or dismiss notifications, a lightweight cookie remembers your choice.</li>
+      <li><strong>No Marketing Cookies:</strong> We do not deploy cookies for advertising, cross-site tracking, or remarketing.</li>
+    </ul>
+    <p>You can configure your browser to refuse cookies or alert you when cookies are being sent. However, some parts of the site may not function optimally. For more details, see <a href="#" id="cookieInfoLink" style="color:#ff98b9;">our Cookie Information</a>.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>6. Data Retention & Security</h2>
+    <p>We retain personal information only as long as necessary to fulfill the purposes outlined in this Privacy Policy or as required by law. Contact form inquiries are stored for up to 24 months for follow-up purposes; newsletter emails remain until you unsubscribe. We implement industry-standard security measures (SSL encryption, firewalls, restricted access) to protect your data from unauthorized access or disclosure. However, no internet transmission is 100% secure — you share information at your own risk.</p>
+    <p>If you ever wish to request deletion of your data (e.g., contact history), please email <span class="highlight-pink">privacy@orvynzaflavorloom.com</span> and we will honor your request within 30 days.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>7. Your Rights & Choices</h2>
+    <p>Depending on your location (including GDPR in Europe, CCPA in California), you may have the following rights regarding your personal data:</p>
+    <ul>
+      <li><strong>Right to Access:</strong> Request a copy of the personal data we hold about you.</li>
+      <li><strong>Right to Rectification:</strong> Correct any inaccurate or incomplete data.</li>
+      <li><strong>Right to Erasure:</strong> Request deletion of your data (subject to legal obligations).</li>
+      <li><strong>Right to Restrict Processing:</strong> Limit how we use your information.</li>
+      <li><strong>Right to Data Portability:</strong> Receive your data in a structured format.</li>
+    </ul>
+    <p>To exercise these rights, contact us at <strong>privacy@orvynzaflavorloom.com</strong>. We will not discriminate against you for exercising any privacy rights. You may also opt out of any non-essential communications by clicking the unsubscribe link in our emails.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>8. Third-Party Links & Embedded Content</h2>
+    <p>Our recipe pages may occasionally include links to external ingredient sources, culinary tools, or reference articles. Please note that we are not responsible for the privacy practices of such third-party sites. We encourage you to read their privacy policies before providing any personal information. Embedded videos (e.g., from Vimeo) may set their own cookies if you interact with them; we choose privacy-conscious embeds where possible.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>9. Children's Privacy</h2>
+    <p>Orvynza Flavor Loom is intended for general audiences and does not knowingly collect personal information from children under the age of 13. If we become aware that a child under 13 has provided us with personal data, we will take steps to delete such information promptly. Parents or guardians who believe their child has submitted information may contact us for removal.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>10. International Data Transfers</h2>
+    <p>Our servers are located in the United States. If you access Orvynza from outside the US, your information may be transferred to, stored, and processed in the US. By using the Platform, you consent to this transfer. We ensure that any international data handling complies with applicable data protection laws, including standard contractual clauses where required.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>11. Updates to This Privacy Policy</h2>
+    <p>We may revise this Privacy Policy from time to time to reflect changes in our practices or for legal reasons. The updated version will be indicated by an updated "Effective Date" and posted on this page. We encourage you to review this page periodically. If we make material changes, we will provide a notice on the homepage or via email (if you are subscribed). Your continued use of the site after changes constitutes acceptance of the revised policy.</p>
+  </div>
+
+  <div class="terms-card">
+    <h2>12. Contact Us</h2>
+    <p>If you have questions, concerns, or requests regarding this Privacy Policy or your data, please reach out to our Data Protection Steward:</p>
+    <ul>
+      <li>✉️ <strong>Email (Privacy Team):</strong> privacy@orvynzaflavorloom.com</li>
+      <li>✉️ <strong>General Inquiries:</strong> hello@orvynzaflavorloom.com</li>
+      <li>📍 <strong>Postal:</strong> Orvynza Flavor Loom — 417 Black Cherry Lane, Suite 7B, Flavortown, NY 10013, USA</li>
+      <li>📞 <strong>Phone:</strong> +1 (212) 555-ORVY (6789)</li>
+    </ul>
+    <hr class="divider-pink">
+    <p style="font-style: italic;">We believe that privacy is not a luxury — it's the essential spice of trust. Thank you for being part of the Flavor Loom community. Now go cook something bold with pink peppercorn and black garlic, knowing your data stays safe.</p>
+  </div>
+
+  <div style="display: flex; justify-content: center; margin: 2rem 0 1rem;">
+    <a href="#" id="backToHomeFooterBtn" class="back-link">⌂  Explore Recipes & Culinary Stories</a>
+  </div>
+</main>
+
+<footer>
+  <div class="footer-inner">
+    <div class="contact-info">
+      <strong>📍 Orvynza Flavor Loom · Culinary Atelier</strong>
+      <i>🏠 417 Black Cherry Lane, Suite 7B, Flavortown, NY 10013</i>
+      <i>📞 +1 (212) 555-ORVY (6789)  |  +44 20 7946 0138</i>
+      <i>✉️ privacy@orvynzaflavorloom.com</i>
+    </div>
+    <div class="word-stats">🔒 Privacy First | No Ad Tracking | Minimal Data Philosophy</div>
+  </div>
+  <div class="copyright">© 2026 Orvynza Flavor Loom — Your culinary privacy matters. All rights reserved.</div>
+</footer>
+
+<script>
+  // Interactive navigation: simulate connections between Terms, Privacy and Main Loom
+  const navTerms = document.getElementById('navTermsLink');
+  const navPrivacy = document.getElementById('navPrivacyLink');
+  const navHome = document.getElementById('navHomeLink');
+  const backHomeBtn = document.getElementById('backToHomeFooterBtn');
+  const cookieInfoLink = document.getElementById('cookieInfoLink');
+
+  // Scroll to cookie / section 5 (Cookies) when cookie info clicked
+  function scrollToCookieSection() {
+    const cookieCard = document.querySelector('.terms-card:nth-child(5)'); // Section 5: Cookies
+    if(cookieCard) {
+      cookieCard.scrollIntoView({ behavior: 'smooth', block: 'start' });
+      cookieCard.style.transition = '0.2s';
+      cookieCard.style.borderColor = '#ff3b6f';
+      setTimeout(() => { cookieCard.style.borderColor = '#2a2433'; }, 1000);
+    } else {
+      alert("🍪 Cookie details are available in Section 5 of this Privacy Policy — we use only essential and preference cookies.");
+    }
+  }
+
+  if(cookieInfoLink) {
+    cookieInfoLink.addEventListener('click', (e) => {
+      e.preventDefault();
+      scrollToCookieSection();
+    });
+  }
+
+  // Helper: show modal info about navigation (since we are in a standalone privacy page)
+  function navigateToTerms() {
+    alert("📜 The Terms of Service page is accessible from the main Flavor Loom. In this standalone Privacy document, you can view the detailed Terms by visiting the Terms section on our main site or navigate back to the homepage.");
+    // For demonstration, we could simulate a redirect but we keep UX consistent: offer to scroll top or show info.
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  }
+
+  function navigateToHome() {
+    alert("🍽️ Orvynza Flavor Loom — The main recipe atlas with 58k+ words of culinary literature, 42+ signature dishes, and the pink & black loom awaits. In a full experience, you'd be immersed in recipe cards, flavor stories, and texture guides. Enjoy the journey!");
+    // As per the standalone terms and privacy context, we inform user. No actual redirect to preserve demo integrity.
+  }
+
+  if(navTerms) {
+    navTerms.addEventListener('click', (e) => {
+      e.preventDefault();
+      navigateToTerms();
+    });
+  }
+  if(navHome) {
+    navHome.addEventListener('click', (e) => {
+      e.preventDefault();
+      navigateToHome();
+    });
+  }
+  if(backHomeBtn) {
+    backHomeBtn.addEventListener('click', (e) => {
+      e.preventDefault();
+      navigateToHome();
+    });
+  }
+
+  // Active link highlight management
+  function setActive(activeEl) {
+    [navTerms, navPrivacy, navHome].forEach(link => {
+      if(link) link.classList.remove('active');
+    });
+    if(activeEl) activeEl.classList.add('active');
+  }
+  if(navPrivacy) setActive(navPrivacy);
+  if(navTerms) {
+    navTerms.addEventListener('click', () => setActive(navTerms));
+  }
+  if(navPrivacy) {
+    navPrivacy.addEventListener('click', () => setActive(navPrivacy));
+  }
+  if(navHome) {
+    navHome.addEventListener('click', () => setActive(navHome));
+  }
+
+  // Additional micro-interaction: highlight privacy anchor from any internal links
+  const privacyInlineLinks = document.querySelectorAll('a[href*="privacy"]');
+  // just for brand consistency, log privacy promise
+  console.log("🔒 Orvynza Privacy Policy — minimal data, zero ad tracking, full transparency.");
+</script>
+</body>
+</html>
